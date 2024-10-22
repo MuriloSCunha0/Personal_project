@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from models.user import User 
-from models.train import WorkoutPlan, Exercise, Progress
+from backend.academia.core.models.user import User 
+from backend.academia.core.models.train import WorkoutPlan, Exercise, Progress
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
