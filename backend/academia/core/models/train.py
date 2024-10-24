@@ -1,4 +1,3 @@
-from django.contrib.auth.models import AbstractUser
 from django.db import models
 from backend.academia.core.models.user import User
 
@@ -24,4 +23,4 @@ class Progress(models.Model):
     used_weight = models.FloatField()  # Peso utilizado
     rest_time = models.DurationField()  # Tempo de descanso real
     date = models.DateTimeField(auto_now_add=True)  # Data do registro
-
+    
