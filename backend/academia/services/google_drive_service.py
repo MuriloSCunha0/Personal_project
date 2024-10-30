@@ -20,3 +20,5 @@ def get_video_url_from_drive(exercise_name):
     # Retornar o link do vídeo
     video_id = items[0]['id']
     return f"https://drive.google.com/file/d/{video_id}/view?usp=sharing"
+
+
