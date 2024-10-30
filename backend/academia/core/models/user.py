@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class User(AbstractUser):
+    name = models.CharField(max_length=100)
     ROLES = (('personal', 'Personal Trainer'), ('aluno', 'Aluno'))
     role = models.CharField(max_length=10, choices=ROLES)
     password = models.CharField(max_length=128)
