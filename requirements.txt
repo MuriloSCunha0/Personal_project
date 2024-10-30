@@ -1,2 +1,14 @@
-Django==5.1.2
-djangorestframework==3.15.2
+Django==4.0.6
+djangorestframework==3.12.4
+djangorestframework-simplejwt==4.8.0
+
+
+# Google API para integração com o Google Drive
+google-api-python-client==2.23.0
+google-auth==2.6.6
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.5.2
+
+# Outras dependências úteis
+requests==2.27.1  # Para fazer requisições HTTP (opcional)
+gunicorn==20.1.0  # Para rodar o servidor em produção (opcional)
